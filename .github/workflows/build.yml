@@ -1,0 +1,49 @@
+name: Build
+
+on:
+  workflow_call:
+    inputs:
+      node_version:
+        type: string
+        default: '20.x'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ inputs.node_version }}
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Cache node_modules
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: node-${{ hashFiles('**/pnpm-lock.yaml') }}
+
+      - name: Check format
+        run: pnpm run prettier
+
+      - name: Check linter
+        run: pnpm run lint
+
+      - name: Build
+        run: pnpm run build
+
+      - name: 'Upload build artifact'
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist

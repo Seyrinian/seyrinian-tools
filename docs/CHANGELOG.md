@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/Seyrinian/seyrinian-tools/compare/v1.0.0...v1.0.1) (2024-06-05)
+
+
+### Bug Fixes
+
+* update npm conf ([#6](https://github.com/Seyrinian/seyrinian-tools/issues/6)) ([c44ca14](https://github.com/Seyrinian/seyrinian-tools/commit/c44ca14a5ea5b92852a2ff0d822101b685eb59cd))
+
 # 1.0.0 (2024-06-05)
 
 

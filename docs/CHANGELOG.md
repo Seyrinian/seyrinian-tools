@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/Seyrinian/seyrinian-tools/compare/v1.0.2...v1.0.3) (2024-06-05)
+
+
+### Bug Fixes
+
+* update package ([#8](https://github.com/Seyrinian/seyrinian-tools/issues/8)) ([b5208f9](https://github.com/Seyrinian/seyrinian-tools/commit/b5208f92a999d0f12e6d2419944379822d01ec13))
+
 ## [1.0.2](https://github.com/Seyrinian/seyrinian-tools/compare/v1.0.1...v1.0.2) (2024-06-05)
 
 

@@ -42,9 +42,6 @@
     "type": "git",
     "url": "git+https://github.com/Seyrinian/seyrinian-tools.git"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "engines": {
     "node": ">=20.13 <21",
     "pnpm": "<=9"

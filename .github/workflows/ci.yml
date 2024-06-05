@@ -1,0 +1,13 @@
+name: CI
+
+on:
+  pull_request:
+    branches:
+      - main
+      - next
+
+jobs:
+  build:
+    uses: Seyrinian/seyrinian-tools/.github/workflows/build.yml@main
+    with:
+      node_version: '20.x'

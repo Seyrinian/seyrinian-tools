@@ -14,6 +14,8 @@ on:
         required: true
       SEMANTIC_BOT_PRIVATE_KEY:
         required: true
+      NPM_TOKEN:
+        required: true
 
 jobs:
   release:
@@ -65,5 +67,5 @@ jobs:
         env:
           GH_TOKEN: ${{ steps.generate_token.outputs.token }}
           GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
-          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           PUBLISH: ${{ inputs.is_publish }}

@@ -1,0 +1,13 @@
+{
+  "extends": ["config:base"],
+  "prConcurrentLimit": 3,
+  "major": {
+    "automerge": false
+  },
+  "minor": {
+    "automerge": false
+  },
+  "patch": {
+    "automerge": true
+  }
+}

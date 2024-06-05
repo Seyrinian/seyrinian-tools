@@ -1,3 +1,11 @@
+# 1.0.0 (2024-06-05)
+
+
+### Bug Fixes
+
+* add ci ([#2](https://github.com/Seyrinian/seyrinian-tools/issues/2)) ([b3acd2b](https://github.com/Seyrinian/seyrinian-tools/commit/b3acd2b0bd79a30815f67c9d7cbec6f8dbcbb438))
+* reset numebr version ([#5](https://github.com/Seyrinian/seyrinian-tools/issues/5)) ([7bac6d7](https://github.com/Seyrinian/seyrinian-tools/commit/7bac6d70ebac8fd72a96dec7ed1dfcb97731f39e))
+
 # 1.0.0-next.1 (2024-06-05)
 
 

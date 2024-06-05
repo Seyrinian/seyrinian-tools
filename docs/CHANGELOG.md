@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/Seyrinian/seyrinian-tools/compare/v1.0.1...v1.0.2) (2024-06-05)
+
+
+### Bug Fixes
+
+* change privacy ([#7](https://github.com/Seyrinian/seyrinian-tools/issues/7)) ([c77d073](https://github.com/Seyrinian/seyrinian-tools/commit/c77d073336d7a8d35db8346fb1857f782f25b93a))
+
 ## [1.0.1](https://github.com/Seyrinian/seyrinian-tools/compare/v1.0.0...v1.0.1) (2024-06-05)
 
 

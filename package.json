@@ -43,6 +43,10 @@
     "type": "git",
     "url": "git+https://github.com/Seyrinian/seyrinian-tools.git"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "engines": {
     "node": ">=20.13 <21",
     "pnpm": "<=9"

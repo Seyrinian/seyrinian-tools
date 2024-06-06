@@ -37,9 +37,6 @@
     "shx": "^0.3.4",
     "typescript": "^5.4.5"
   },
-  "files": [
-    "dist/**/*"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Seyrinian/seyrinian-tools.git"

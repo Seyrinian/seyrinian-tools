@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/Seyrinian/seyrinian-tools/compare/v1.0.3...v1.0.4) (2024-06-06)
+
+
+### Bug Fixes
+
+* update prettier to format ([#10](https://github.com/Seyrinian/seyrinian-tools/issues/10)) ([2db6ce4](https://github.com/Seyrinian/seyrinian-tools/commit/2db6ce4559df04023ded1b8702a4375d48538779))
+
 ## [1.0.3](https://github.com/Seyrinian/seyrinian-tools/compare/v1.0.2...v1.0.3) (2024-06-05)
 
 

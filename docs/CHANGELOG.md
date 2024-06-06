@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/Seyrinian/seyrinian-tools/compare/v1.0.4...v1.0.5) (2024-06-06)
+
+
+### Bug Fixes
+
+* update directory structure ([#12](https://github.com/Seyrinian/seyrinian-tools/issues/12)) ([362b41a](https://github.com/Seyrinian/seyrinian-tools/commit/362b41a9dbf5cd9067333310db865e0b49555080))
+
 ## [1.0.4](https://github.com/Seyrinian/seyrinian-tools/compare/v1.0.3...v1.0.4) (2024-06-06)
 
 

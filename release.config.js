@@ -21,7 +21,7 @@ export default {
       '@semantic-release/npm',
       {
         npmPublish: process.env.PUBLISH === 'true',
-        pkgRoot: '.',
+        pkgRoot: './dist',
       },
     ],
     [

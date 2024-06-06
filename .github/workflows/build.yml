@@ -34,7 +34,7 @@ jobs:
           key: node-${{ hashFiles('**/pnpm-lock.yaml') }}
 
       - name: Check format
-        run: pnpm run prettier
+        run: pnpm run format
 
       - name: Check linter
         run: pnpm run lint

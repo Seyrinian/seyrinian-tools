@@ -1,3 +1,14 @@
+## [1.0.6](https://github.com/Seyrinian/seyrinian-tools/compare/v1.0.5...v1.0.6) (2024-06-10)
+
+
+### Bug Fixes
+
+* a dd index.ts ([#18](https://github.com/Seyrinian/seyrinian-tools/issues/18)) ([aa653b4](https://github.com/Seyrinian/seyrinian-tools/commit/aa653b47efce208d01e9eb8dac2fb7859a47e12f))
+* update directory structure ([#14](https://github.com/Seyrinian/seyrinian-tools/issues/14)) ([cd38804](https://github.com/Seyrinian/seyrinian-tools/commit/cd38804ee79a4346bc0b2de312eda9bbb9e67355))
+* update directory structure ([#16](https://github.com/Seyrinian/seyrinian-tools/issues/16)) ([c3a61d9](https://github.com/Seyrinian/seyrinian-tools/commit/c3a61d94a1e792443c7851020bf3ec87832e3223))
+* update directory structure ([#17](https://github.com/Seyrinian/seyrinian-tools/issues/17)) ([9161d49](https://github.com/Seyrinian/seyrinian-tools/commit/9161d4951b34d55b78ca47b1f82b1bd0c40e9b14))
+* update dist in semantic ([#13](https://github.com/Seyrinian/seyrinian-tools/issues/13)) ([c06af0a](https://github.com/Seyrinian/seyrinian-tools/commit/c06af0a3ac84738785a61fb0750e8352a01bdfb0))
+
 ## [1.0.5](https://github.com/Seyrinian/seyrinian-tools/compare/v1.0.4...v1.0.5) (2024-06-06)
 
 

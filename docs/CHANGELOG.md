@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/Seyrinian/seyrinian-tools/compare/v1.0.6...v1.0.7) (2024-06-10)
+
+
+### Bug Fixes
+
+* update config name ([#19](https://github.com/Seyrinian/seyrinian-tools/issues/19)) ([ac87fcc](https://github.com/Seyrinian/seyrinian-tools/commit/ac87fccd5d444a19c9325663e8b836d46913bcfd))
+
 ## [1.0.6](https://github.com/Seyrinian/seyrinian-tools/compare/v1.0.5...v1.0.6) (2024-06-10)
 
 

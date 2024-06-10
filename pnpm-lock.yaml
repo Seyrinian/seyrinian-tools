@@ -7,6 +7,13 @@ settings:
 importers:
 
   .:
+    dependencies:
+      eslint:
+        specifier: ^9.3.0
+        version: 9.4.0
+      globals:
+        specifier: ^15.3.0
+        version: 15.3.0
     devDependencies:
       '@commitlint/cli':
         specifier: ^19.3.0
@@ -32,12 +39,6 @@ importers:
       conventional-changelog-conventionalcommits:
         specifier: ^8.0.0
         version: 8.0.0
-      eslint:
-        specifier: ^9.3.0
-        version: 9.4.0
-      globals:
-        specifier: ^15.3.0
-        version: 15.4.0
       husky:
         specifier: ^9.0.11
         version: 9.0.11
@@ -862,8 +863,8 @@ packages:
     resolution: {integrity: sha512-oahGvuMGQlPw/ivIYBjVSrWAfWLBeku5tpPE2fOPLi+WHffIWbuh2tCjhyQhTBPMf5E9jDEH4FOmTYgYwbKwtQ==}
     engines: {node: '>=18'}
 
-  globals@15.4.0:
-    resolution: {integrity: sha512-unnwvMZpv0eDUyjNyh9DH/yxUaRYrEjW/qK4QcdrHg3oO11igUQrCSgODHEqxlKg8v2CD2Sd7UkqqEBoz5U7TQ==}
+  globals@15.3.0:
+    resolution: {integrity: sha512-cCdyVjIUVTtX8ZsPkq1oCsOsLmGIswqnjZYMJJTGaNApj1yHtLSymKhwH51ttirREn75z3p4k051clwg7rvNKA==}
     engines: {node: '>=18'}
 
   globalthis@1.0.4:
@@ -3051,7 +3052,7 @@ snapshots:
 
   globals@14.0.0: {}
 
-  globals@15.4.0: {}
+  globals@15.3.0: {}
 
   globalthis@1.0.4:
     dependencies:

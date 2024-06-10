@@ -11,9 +11,9 @@
     "lint:fix": "eslint --fix .",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "type-check": "tsc --noEmit -p tsconfig.base.json",
+    "type-check": "tsc --noEmit",
     "prepare": "husky",
-    "build": "npm run type-check"
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
@@ -36,12 +36,7 @@
     "typescript": "^5.4.5"
   },
   "files": [
-    "tsconfig.base.json",
-    "eslint.config.js",
-    "commitlint.config.js",
-    "prettier.config.js",
-    "renovate.json",
-    "release.config.js"
+    "dist/*"
   ],
   "repository": {
     "type": "git",

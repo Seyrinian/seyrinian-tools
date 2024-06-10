@@ -1,15 +1,15 @@
-import eslint from '~/eslint.config';
-import prettier from '~/prettier.config';
-import renovate from '~/renovate.json';
+import eslintConfig from '~/eslint.config';
+import prettierConfig from '~/prettier.config';
+import renovateConfig from '~/renovate.json';
 import tsConfig from '~/tsconfig.json';
-import commitlint from '~/commitlint.config';
-import semanticRelease from '~/release.config';
+import commitlintConfig from '~/commitlint.config';
+import semanticReleaseConfig from '~/release.config';
 
 export default {
-  eslint,
-  prettier,
-  renovate,
+  eslintConfig,
+  prettierConfig,
+  renovateConfig,
   tsConfig,
-  commitlint,
-  semanticRelease,
+  commitlintConfig,
+  semanticReleaseConfig,
 };

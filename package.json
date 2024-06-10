@@ -17,6 +17,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "eslint": "^9.3.0",
+    "globals": "^15.3.0"
+  },
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-angular": "^19.3.0",
@@ -26,8 +30,6 @@
     "@types/eslint__js": "^8.42.3",
     "@types/node": "^20.14.1",
     "conventional-changelog-conventionalcommits": "^8.0.0",
-    "eslint": "^9.3.0",
-    "globals": "^15.3.0",
     "husky": "^9.0.11",
     "prettier": "^3.2.5",
     "semantic-release": "^24.0.0",

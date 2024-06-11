@@ -1,3 +1,10 @@
+## [1.0.11](https://github.com/Seyrinian/seyrinian-tools/compare/v1.0.10...v1.0.11) (2024-06-11)
+
+
+### Bug Fixes
+
+* add tslint ([#25](https://github.com/Seyrinian/seyrinian-tools/issues/25)) ([958b899](https://github.com/Seyrinian/seyrinian-tools/commit/958b899fb0326534d2d5a626ca32c806306a91ad))
+
 ## [1.0.10](https://github.com/Seyrinian/seyrinian-tools/compare/v1.0.9...v1.0.10) (2024-06-11)
 
 

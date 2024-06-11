@@ -4,7 +4,6 @@
   "description": "",
   "type": "module",
   "main": "dist/index.js",
-  "types": "dist/types/index.d.ts",
   "private": false,
   "scripts": {
     "lint": "eslint .",
@@ -18,24 +17,24 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "eslint": "^9.3.0",
-    "globals": "^15.3.0"
-  },
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-angular": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
+    "@eslint/js": "^9.4.0",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@types/eslint__js": "^8.42.3",
     "@types/node": "^20.14.1",
     "conventional-changelog-conventionalcommits": "^8.0.0",
+    "eslint": "^9.3.0",
+    "globals": "^15.3.0",
     "husky": "^9.0.11",
     "prettier": "^3.2.5",
     "semantic-release": "^24.0.0",
     "shx": "^0.3.4",
-    "typescript": "^5.4.5"
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.13.0"
   },
   "files": [
     "dist/*"
@@ -50,6 +49,7 @@
   },
   "engines": {
     "node": ">=20.13 <21",
-    "pnpm": "<=9"
+    "pnpm": "<=9",
+    "npm": "<=8"
   }
 }

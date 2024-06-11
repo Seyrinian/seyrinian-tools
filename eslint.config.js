@@ -14,6 +14,7 @@ export default [
       // Add your own rules here
       'no-const-assign': 'warn',
       'no-constant-condition': 'warn',
+      'no-console': 'error',
     },
   },
   {

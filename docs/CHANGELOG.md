@@ -1,3 +1,10 @@
+## [1.0.12](https://github.com/Seyrinian/seyrinian-tools/compare/v1.0.11...v1.0.12) (2024-06-12)
+
+
+### Bug Fixes
+
+* update vite ([#27](https://github.com/Seyrinian/seyrinian-tools/issues/27)) ([11656f8](https://github.com/Seyrinian/seyrinian-tools/commit/11656f8e3dfcc57a09e605d830b3636a33fb104e))
+
 ## [1.0.11](https://github.com/Seyrinian/seyrinian-tools/compare/v1.0.10...v1.0.11) (2024-06-11)
 
 

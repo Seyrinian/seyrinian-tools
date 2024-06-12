@@ -3,8 +3,8 @@
   "version": "1.0.12",
   "description": "",
   "type": "module",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
+  "main": "dist/index.es.js",
+  "module": "dist/index.umd.js",
   "private": false,
   "scripts": {
     "lint": "eslint .",

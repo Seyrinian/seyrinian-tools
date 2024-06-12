@@ -1,3 +1,10 @@
+## [1.0.14](https://github.com/Seyrinian/seyrinian-tools/compare/v1.0.13...v1.0.14) (2024-06-12)
+
+
+### Bug Fixes
+
+* imd ([#29](https://github.com/Seyrinian/seyrinian-tools/issues/29)) ([62a79a5](https://github.com/Seyrinian/seyrinian-tools/commit/62a79a5a9d1549d41727970295d37a5e58b899fb))
+
 ## [1.0.13](https://github.com/Seyrinian/seyrinian-tools/compare/v1.0.12...v1.0.13) (2024-06-12)
 
 

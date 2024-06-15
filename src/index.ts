@@ -12,4 +12,4 @@ export const seyrinianConfig = {
   tsConfig,
   commitlintConfig,
   semanticReleaseConfig,
-} as Record<string, any>;
+} as Record<string, unknown>;

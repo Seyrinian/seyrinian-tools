@@ -5,11 +5,11 @@ import tsConfig from '../tsconfig.json';
 import commitlintConfig from '../commitlint.config.js';
 import semanticReleaseConfig from '../release.config.js';
 
-export default {
+export const seyrinianConfig = {
   eslintConfig,
   prettierConfig,
   renovateConfig,
   tsConfig,
   commitlintConfig,
   semanticReleaseConfig,
-};
+} as Record<string, any>;

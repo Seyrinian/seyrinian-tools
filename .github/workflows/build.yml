@@ -5,7 +5,7 @@ on:
     inputs:
       node_version:
         type: string
-        default: '20.x'
+        default: "20.x"
 
 jobs:
   build:
@@ -45,7 +45,7 @@ jobs:
       - name: Build
         run: pnpm run build
 
-      - name: 'Upload build artifact'
+      - name: "Upload build artifact"
         uses: actions/upload-artifact@v4
         with:
           name: dist

@@ -1,8 +1,8 @@
 ---
 name: Documentation Request
 description: Suggest an idea to add documentations
-title: '[Docs]: '
-labels: ['documentation']
+title: "[Docs]: "
+labels: ["documentation"]
 assignees:
   - Seyrinian
 body:

@@ -1,3 +1,11 @@
+## [1.0.15](https://github.com/Seyrinian/seyrinian-tools/compare/v1.0.14...v1.0.15) (2024-06-15)
+
+
+### Bug Fixes
+
+* add 2 ([#33](https://github.com/Seyrinian/seyrinian-tools/issues/33)) ([5d76dad](https://github.com/Seyrinian/seyrinian-tools/commit/5d76dad741589606c614d3a9ac24485b3d1d095d))
+* update ([#32](https://github.com/Seyrinian/seyrinian-tools/issues/32)) ([7870170](https://github.com/Seyrinian/seyrinian-tools/commit/7870170d6bbba7f0abba5a6dd01aadcd0006783a))
+
 ## [1.0.14](https://github.com/Seyrinian/seyrinian-tools/compare/v1.0.13...v1.0.14) (2024-06-12)
 
 

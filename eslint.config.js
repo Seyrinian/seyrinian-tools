@@ -1,6 +1,6 @@
-import eslintJS from '@eslint/js';
-import tseslint from 'typescript-eslint';
-import globals from 'globals';
+import eslintJS from "@eslint/js";
+import tseslint from "typescript-eslint";
+import globals from "globals";
 
 export default tseslint.config(
   eslintJS.configs.recommended,
@@ -8,20 +8,17 @@ export default tseslint.config(
   ...tseslint.configs.strict,
   ...tseslint.configs.stylistic,
   {
-    name: 'eslint-config-seyrinian-config',
+    name: "eslint-config-seyrinian-tools",
     languageOptions: {
       globals: {
         ...globals.node,
       },
     },
     rules: {
-      // Add your own rules here
-      'no-const-assign': 'warn',
-      'no-constant-condition': 'warn',
-      'no-console': 'error',
+      "no-console": "error",
     },
   },
   {
-    ignores: ['node_modules', 'dist/'],
-  }
+    ignores: ["node_modules", "dist/"],
+  },
 );

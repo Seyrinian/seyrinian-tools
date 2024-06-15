@@ -1,33 +1,33 @@
 export default {
-  branches: ['main', { name: 'next', prerelease: true }],
+  branches: ["main", { name: "next", prerelease: true }],
   plugins: [
     [
-      '@semantic-release/commit-analyzer',
+      "@semantic-release/commit-analyzer",
       {
         parserOpts: {
-          noteKeywords: ['BREAKING CHANGE', 'BREAKING CHANGES', 'BREAKING'],
+          noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"],
         },
       },
     ],
-    '@semantic-release/release-notes-generator',
+    "@semantic-release/release-notes-generator",
     [
-      '@semantic-release/changelog',
+      "@semantic-release/changelog",
       {
-        changelogFile: 'docs/CHANGELOG.md',
+        changelogFile: "docs/CHANGELOG.md",
       },
     ],
-    '@semantic-release/github',
+    "@semantic-release/github",
     [
-      '@semantic-release/npm',
+      "@semantic-release/npm",
       {
-        npmPublish: process.env.PUBLISH === 'true',
-        pkgRoot: '.',
+        npmPublish: process.env.PUBLISH === "true",
+        pkgRoot: ".",
       },
     ],
     [
-      '@semantic-release/git',
+      "@semantic-release/git",
       {
-        assets: ['docs/CHANGELOG.md', 'package.json', 'package-lock.json'],
+        assets: ["docs/CHANGELOG.md", "package.json", "package-lock.json"],
       },
     ],
   ],

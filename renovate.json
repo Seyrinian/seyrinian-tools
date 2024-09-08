@@ -5,7 +5,7 @@
     "automerge": false
   },
   "minor": {
-    "automerge": false
+    "automerge": true
   },
   "patch": {
     "automerge": true

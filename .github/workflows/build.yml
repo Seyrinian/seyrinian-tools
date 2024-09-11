@@ -19,6 +19,15 @@ jobs:
         with:
           node-version: ${{ inputs.node_version }}
 
+      - name: Check if build script exists
+        id: check_build_script
+        run: |
+          if jq -e '.scripts.build' package.json > /dev/null; then
+            echo "BUILD_SCRIPT_EXISTS=true" >> $GITHUB_ENV
+          else
+            echo "BUILD_SCRIPT_EXISTS=false" >> $GITHUB_ENV
+          fi
+
       - name: Install dependencies
         run: npm ci
 
@@ -38,9 +47,11 @@ jobs:
         run: npm run type-check
 
       - name: Build
+        if: env.BUILD_SCRIPT_EXISTS == 'true'
         run: npm run build
 
       - name: 'Upload build artifact'
+        if: env.BUILD_SCRIPT_EXISTS == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: dist

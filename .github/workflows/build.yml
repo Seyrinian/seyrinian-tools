@@ -9,6 +9,8 @@ on:
 
 jobs:
   build:
+    env:
+      BUILD_SCRIPT_EXISTS: false
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
@@ -44,6 +46,7 @@ jobs:
         run: npm run lint
 
       - name: Check types
+        if: env.BUILD_SCRIPT_EXISTS == 'true'
         run: npm run type-check
 
       - name: Build

@@ -1,6 +1,6 @@
 {
   "name": "@seyrinian/seyrinian-tools",
-  "version": "1.0.16",
+  "version": "1.0.15",
   "description": "",
   "type": "module",
   "main": "dist/index.js",
@@ -12,8 +12,7 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "type-check": "tsc --noEmit",
-    "prepare": "husky",
-    "build": "tsc"
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",
@@ -40,7 +39,12 @@
     "vite-plugin-dts": "^4.0.0"
   },
   "files": [
-    "dist/*"
+    "eslint.config.js",
+    "prettier.config.js",
+    "renovate.json",
+    "tsconfig.json",
+    "commitlint.config.js",
+    "release.config.js"
   ],
   "repository": {
     "type": "git",

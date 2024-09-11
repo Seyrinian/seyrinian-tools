@@ -6,6 +6,9 @@ on:
       node_version:
         type: string
         default: '20.x'
+      is_build:
+        type: boolean
+        default: true
       is_publish:
         type: boolean
         default: false
@@ -51,6 +54,7 @@ jobs:
             node-
 
       - name: Upload previous build artifact
+        if: ${{ inputs.is_build }}
         uses: actions/download-artifact@v4
         with:
           name: dist

@@ -10,13 +10,15 @@ jobs:
   build:
     uses: Seyrinian/seyrinian-tools/.github/workflows/build.yml@main
     with:
-      node_version: "20.x"
+      node_version: '20.x'
+      is_build: false
   release:
     needs: build
     uses: Seyrinian/seyrinian-tools/.github/workflows/release.yml@main
     with:
-      node_version: "20.x"
+      node_version: '20.x'
       is_publish: true
+      is_build: false
     secrets:
       SEMANTIC_BOT_APP_ID: ${{ secrets.SEMANTIC_BOT_APP_ID }}
       SEMANTIC_BOT_PRIVATE_KEY: ${{ secrets.SEMANTIC_BOT_PRIVATE_KEY }}

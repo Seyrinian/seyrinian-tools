@@ -1,3 +1,10 @@
+## [1.0.18](https://github.com/Seyrinian/seyrinian-tools/compare/v1.0.17...v1.0.18) (2024-12-21)
+
+
+### Bug Fixes
+
+* update eslint rules ([#152](https://github.com/Seyrinian/seyrinian-tools/issues/152)) ([681576a](https://github.com/Seyrinian/seyrinian-tools/commit/681576a21b7cdd8c3d39880571c98f9f59cb27d4))
+
 ## [1.0.17](https://github.com/Seyrinian/seyrinian-tools/compare/v1.0.16...v1.0.17) (2024-09-11)
 
 
